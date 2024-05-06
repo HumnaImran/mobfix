@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Segoe UI";
+  /* Give a name to your font */
+  src: url("../fonts/segoe-ui/Segoe\ UI.ttf") format("tff");
+}
+body {
+  font-family: "Segoe UI" !important;
+}
+.booknow-img {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../img/booknow.png), lightgray 0px -170.162px / 100% 245.098% no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  background-repeat: no-repeat; 
+}
+.booknow-icon {
+}
+.book-para h4 {
+    color: var(--h1-color);
+    font-size: 28px;
+    font-weight: 600;
+  }
+.book-menu1 select{
+    color: var(--book-color1);
+  font-size: 20px;
+  font-weight: 400;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.book-menu1 select:focus {
+  box-shadow: none;
+  border-color: var(--book-color3);
+}
+.book-menu2 select{
+    color: var(--book-color2);
+    font-size: 20px;
+    font-weight: 400;;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.book-menu2 select:focus {
+  box-shadow: none;
+  border-color: none;
+  border-color: var(--book-color3);
+}
+.book-textarea textarea {
+  background: var(--book-color3);
+  border: none;
+  color: var(--book-color5);
+  font-size: 24px;
+  font-weight: 400;
+}
+/* .book-textarea::placeholder{
+    color: var( --book-color5);
+    font-size: 32px;
+font-weight: 400;
+} */
+
+.book-textarea textarea:focus {
+  box-shadow: none;
+  border-color: none;
+  outline: none;
+  border-color: var(--book-color3);
+}
+.book-input input{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 5px;
+}
+.book-input ::placeholder {
+  color: var(--book-color2);
+  font-size: 20px;
+  font-weight: 400;
+}
+.book-input input:focus {
+  box-shadow: none;
+  border-color: none;
+  border-color: var(--book-color3);
+}
+.check label {
+  color: var(--book-color2);
+  font-size: 20px;
+  font-weight: 400;
+}
+.book-form label {
+  color: var(--h1-color);
+  font-size: 24px;
+  font-weight: 400;
+}
+.book-content i {
+  font-size: 30px;
+  color: var(--font-awesome1-color);
+}
+.book-content p {
+  color: var(--book-color);
+  font-size: 24px;
+  font-weight: 600;
+}
+.book-button {
+  color: var(--heading1-color);
+  background: var(--button2-background-color);
+  font-size: 22px;
+  font-weight: 400;
+  border-radius: 10px;
+  width: 240px;
+}
+.book-button:hover {
+  background: var(--feedback-background-color);
+  color: var(--heading1-color);
+}
+.book-button1 {
+  color: var(--button2-background-color);
+  border: 1px solid #525fe1;
+  font-size: 22px;
+  font-weight: 400;
+  border-radius: 10px;
+  width: 240px;
+}
+.book-button1:hover {
+  background: var(--feedback-background-color);
+  color: var(--heading1-color);
+}
+@media(max-width:554px)
+{
+
+}

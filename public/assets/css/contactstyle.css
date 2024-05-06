@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Segoe UI;
+
+}
+
+.heading-1 {
+    color: var(--heading1-color);
+    font-size: var(--heading-1-font-size);
+
+}
+
+.header-contactus {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.51) 0%, rgba(0, 0, 0, 0.51) 100%), url(../img/contact.png), lightgray 0px -108.322px / 100% 235.889% no-repeat;
+    height: 345px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.heading-2 {
+    color: var(--h1-color);
+    font-size: var(--h1-font-size);
+    font-weight: var(--h1-font-weight);
+}
+
+.social-icon {
+    color: var(--font-awesome1-color);
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.social-icon:hover {
+    transform: scale(1.3);
+    transition: .5s;
+
+}
+
+.media-icon {
+    display: flex;
+    gap: 31px;
+    flex-direction: column;
+
+}
+
+.media-icon li {
+    color: var(--para3-color);
+    font-family: Segoe UI;
+    font-size: var(--h2-font-size) !important;
+    font-weight: var(--para1-font-weight);
+
+}
+
+.input-form {
+
+    box-shadow: none;
+    outline: none;
+    color: var(--form-control-color);
+    font-size: var(--h3-font-size);
+    font-weight: var(--para1-font-weight);
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.input-form:focus {
+    border: 2px solid #000;
+}
+
+.form-button {
+    background-color: var(--button2-background-color);
+    width: 142px;
+    height: 60px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    color: var(--heading1-color);
+    font-size: var(--h3-font-size);
+}
+
+.form-button:hover {
+    cursor: pointer;
+    background-color: var(--feedback-color);
+    transition: .2s;
+}

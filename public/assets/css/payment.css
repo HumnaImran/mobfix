@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Segoe UI";
+  /* Give a name to your font */
+  src: url("../fonts/segoe-ui/Segoe\ UI.ttf") format("tff");
+}
+
+body {
+  font-family: "Segoe UI" !important;
+}
+/* -------------------- payment-form start-------------------- */
+.pay-form {
+  background: var(--heading1-color);
+}
+.pay-head h1 {
+  color: var(--h1-color);
+  font-style: normal;
+  font-weight: var(--h1-font-weight);
+  line-height: normal;
+}
+.pay-head p {
+  color: var(--form-color);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.pay-label label {
+  color: var(--form-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pay-label input {
+  padding: 18px;
+  border-radius: 10px;
+  /* border: 1px solid rgba(82, 95, 225, 0.50) */
+  border-color: rgba(82, 95, 225, 0.5);
+  font-weight: 400;
+  color: var(--form-color1);
+  font-size: 20px;
+}
+.pay-label input:focus {
+  box-shadow: none;
+}
+.pay-label::placeholder {
+  
+ 
+}
+.card-field {
+  border-left: none !important;
+}
+.pay-group {
+  /* border: 1px solid rgba(82, 95, 225, 0.50); */
+  border-color: rgba(82, 95, 225, 0.5);
+  border-radius: 10px;
+}
+.payform-button {
+  background: var(--button2-background-color);
+  width: 200px;
+  color: var(--heading1-color);
+  border-radius: 50px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.payform-button:hover {
+  background: var(--feedback-background-color);
+  color: var(--heading1-color);
+}
+.sec2-color {
+  background: var(--button2-background-color);
+  color: var(--heading1-color);
+  border-radius: 15px;
+}
+.form-para h1 {
+  font-weight: var(--h1-font-weight);
+  font-size: 50px;
+}
+.p1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.para1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.para1 .total1 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.para0 {
+  font-size: 18px;
+  line-height: 2px;
+}
+
+
+@media(max-width:554px)
+{
+    .payform-button {
+        width: 100%;
+    }
+}
+/* --------------- -----payment-form end----------------------- */

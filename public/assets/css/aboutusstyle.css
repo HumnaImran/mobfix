@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Segoe UI;
+}
+
+.heading-1 {
+    color: var(--heading1-color);
+    font-size: var(--heading-1-font-size);
+
+}
+
+
+
+.header-aboutus {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.51) 0%, rgba(0, 0, 0, 0.51) 100%), url(../img/backgroundabout.png), lightgray -0.014px -190.732px / 100.013% 248.226% no-repeat;
+    height: 345px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.heading-2 {
+    color: var(--h1-color);
+    font-size: var(--h1-font-size);
+    font-weight: var(--h1-font-weight);
+}
+
+.heading-3 {
+    color: var(--h1-color);
+    font-size: var(--h2-font-size);
+    font-weight: var(--h2-font-weight);
+
+}
+
+.para1 {
+    color: var(--para1-color);
+    font-size: var(--h2-font-size);
+    font-weight: var(--para1-font-weight);
+
+
+}
+
+.para2 {
+    color: var(--para2-color);
+    font-size: var(--para2-font-size);
+    font-weight: var(--para1-font-weight);
+}
+
+.span-card {
+    color: var(--feedback-color);
+    font-size: var(--h2-font-size);
+
+    font-weight: var(--h2-font-weight);
+
+}
+
+.card-style {
+    height: 100%;
+    background-color: var(--heading1-color);
+    box-shadow: var(--box2-box-shadow);
+}
+
+@media (max-width:992px) {
+    .repairim {
+        width: 100%;
+    }
+}

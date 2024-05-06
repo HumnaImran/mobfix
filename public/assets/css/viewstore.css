@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Segoe UI';
+    /* Give a name to your font */
+    src: url('../fonts/segoe-ui/Segoe\ UI.ttf') format('tff'),
+
+
+}
+body {
+    font-family: 'Segoe UI' !important;
+}
+/* background picture */
+.view-store{
+    width: 100% !important;
+    height: 60vh!important;
+    background-size: cover;
+    object-fit: cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../img/joel-rohland-MCL2xxjZJvs-unsplash\ 1.png), lightgray 0px -170.162px / 100% 245.098% no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+}
+.view-store-1{
+    width: 100% !important;
+    height: 60vh!important;
+    align-items: end;
+}
+/* heading */
+.view-store-heading{
+color:var(--heading1-color);
+font-size: 32px;
+font-weight: 700;
+}
+/* ....button.. */
+.view-store-booknow{
+background-color: var(--button2-background-color);
+color:var(--heading1-color);
+font-size: 14px;
+font-weight: 600;
+}
+.view-store-booknow:hover{
+    background-color: var(--button2-background-color);
+    color:var(--heading1-color);
+}
+.view-store-para{
+ border: 1px solid var(--para-border);
+ border-bottom: none;
+ color: var( --para2-color);
+font-size: 16px;
+font-weight: 400;
+}
+/* input field */
+ 
+.view-store-input{
+    border: 1px solid var(--border-color);
+    border-radius: 16px
+}
+/* .view-store-option{
+color: var( --para3-color);
+font-size: 16px;
+font-weight: 400;
+border: 1px solid var(--border-color);
+border-left: 0;
+border-radius: 16px
+} */
+.view-store-w-img{
+width: 26px;
+height: 26px;
+}
+.view-store-c-img{
+    margin-top: 3px;
+    width: 15px;
+    height: 20px;
+}
+.call_store::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 25px;
+    background-color:var(--line-color);
+
+}
+.view-store-call{
+    color: var( --feedback-color);
+}
+
+.view-store-div{
+    border: 1px solid var(--border);
+    border-left:none
+   
+}
+.view-store-input:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: var(--border-color);
+
+}
+.view-store-div h5{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+.view-store-div p{
+ color: var(--para4-color);
+font-size: 16px;
+font-weight: 400;
+}
+.view-store-callnow{
+    color: var( --feedback-color) !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+.view-store-book{
+justify-content: center;
+align-items: center;
+font-weight: 600;
+font-size: 14px;
+color: var(--feedback-color);
+border-radius: 6px;
+border: 1px solid var(--feedback-color);
+text-wrap: nowrap;
+
+}
+.view-store-book:hover{
+    background-color:var(--feedback-color); 
+    color: var(--heading1-color);
+
+}
+.view-store-view{
+padding: 10px 16px 9px 16px;
+justify-content: center;
+align-items: center;
+font-weight: 600;
+font-size: 14px;
+background-color: var(--feedback-color);
+color: var(--heading1-color);
+}
+
+
+/* slider */
+.view-store-walk p{
+color:var(--h1-color);
+font-size: 13px;
+font-weight: 500;
+}
+
+.slider .slider1 .slider2 .slider3{
+    background: none;
+    margin: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+@media screen and (min-width: 768px){
+.slider .slider1 .slider2 .slider3 img{
+    height: 8rem;
+}
+}
+.leftLst{
+background: var(--feedback-color);
+}
+.leftLst:hover{
+    background-color: var(--backgroundhover);
+    color:black;
+    }
+
+.rightLst{
+    background: var(--feedback-color);
+}
+.rightLst:hover{
+    background-color:var(--backgroundhover);
+    color: black;
+}
+
+.view-store-swiper-btn{
+    background-color: var(--feedback-color);
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+.MultiCarousel {
+	float: left;
+	overflow: hidden;
+	padding: 15px;
+	width: 100%;
+	position: relative;
+}
+.MultiCarousel .MultiCarousel-inner {
+	transition: 1s ease all;
+	float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item {
+	float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	background: #f1f1f1;
+	color: #666;
+}
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+	position: absolute;
+	border-radius: 2px;
+	top: calc(50% - 20px);
+}
+ 
+
+ 
+.MultiCarousel .leftLst {
+	left: 0;
+}
+.MultiCarousel .rightLst {
+	right: 0;
+}
+
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+	pointer-events: none;
+	background: #ccc;
+}

@@ -1,0 +1,571 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/segoe-ui/Segoe\ UI.ttf') format('tff'),
+}
+
+:root {
+
+
+    /* font size */
+    --heading-1-font-size: 40px;
+    --h1-font-size: 32px;
+    --h2-font-size: 16px;
+    --h3-font-size: 20px;
+    --para2-font-size: 15px;
+    --address-font-size: 28px;
+    --andriod-para-font-size: 14px;
+    --snd-message-font-size: 22px;
+
+    /* font size */
+
+
+
+
+    /* font weight */
+    --h1-font-weight: 700;
+    --h2-font-weight: 600;
+    --h3-font-weight: 600;
+    --para1-font-weight: 400;
+
+
+    /* color */
+    --heading1-color: #fff;
+    --h1-color: #000;
+    --feedback-color: #f86f03;
+    --feedback-background-color: #f86f03;
+    --form-control-color: rgba(0, 0, 0, 0.30);
+    --form-control-border: 1px solid rgba(0, 0, 0, 0.50);
+    --font-awesome1-color: #525FE1;
+    --para1-color: rgba(0, 0, 0, 0.84);
+    --para2-color: rgba(0, 0, 0, 0.72);
+    --para3-color: rgba(0, 0, 0, 0.50);
+    --para4-color: rgba(0, 0, 0, 0.67);
+    --para4-colora: rgba(0, 0, 0, 0.55);
+    --navbar-button-color: #525fe1;
+    --button1-background-color: #fff6f4;
+    --button2-background-color: #525fe1;
+    --footer-bg: rgba(255, 255, 255, 0.99);
+    --inputColor: rgba(82, 95, 225, 0.33);
+    --fBtn: #FFA41B;
+    /*  color  end */
+
+
+    /* boxshadow */
+    --box-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    --box2-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25);
+    --box4-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    --box3-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.25);
+    --view-guide-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+
+    /* by ikram  */
+
+
+    /* Replace with your desired color */
+
+    --border-color: rgba(0, 0, 0, 0.52);
+    --border: rgba(0, 0, 0, 0.12);
+    --line-color: rgba(248, 111, 3, 0.51);
+    --para-border: rgba(0, 0, 0, 0.42);
+    --backgroundhover: #f1f1f1;
+    --hover-color: #666;
+    --input-color: rgba(0, 0, 0, 0.56);
+
+
+    /* ###########>Header variable start<############# */
+    --header-bg: #fff6f4;
+    --nav-color: 18px;
+    /* ###########>Header variable End <############# */
+
+    /* ###########>pay-form variable start<############# */
+    --form-color: #575757;
+    --form-color1: rgba(0, 0, 0, 0.37);
+
+
+    /* ###########>pay-form variable End <############# */
+
+
+
+
+
+    /* ###########>Footer variable start<############# */
+    --footer-bg: #fdfdfd;
+    --twitter-color: #1D9BF0;
+    /* ###########>Footer variable End <############# */
+
+    /* ###########>book now variable start<############# */
+    --book-color: rgba(0, 0, 0, 0.55);
+    --book-color1: rgba(0, 0, 0, 0.70);
+    --book-color2: rgba(0, 0, 0, 0.52);
+    --book-color3: #F3F1F1;
+    --book-color4: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    --book-color5: rgba(0, 0, 0, 0.25);
+    /* ###########>book now variable End <############# */
+
+    /* ###########>book now submit variable start<############# */
+    --book-color6: rgba(0, 0, 0, 0.41);
+    --book-color7: #FCFCFC;
+    --book-color8: rgba(0, 0, 0, 0.53);
+    --book-color9: rgba(0, 0, 0, 0.18);
+
+    /* ###########>book now submit variable End <############# */
+}
+
+.heading-location {
+    color: var(--heading1-color);
+    font-size: var(--heading-1-font-size);
+
+}
+
+
+
+.header-location {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.51) 0%, rgba(0, 0, 0, 0.51) 100%), url(../img/location1.png), lightgray -26.964px -252.102px / 103.706% 208.687% no-repeat;
+    height: 405px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+
+    justify-content: center;
+}
+
+.book-buttons {
+    color: var();
+    background-color: var(--navbar-button-color);
+    color: var(--heading1-color);
+    background: var(--button2-background-color);
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 10px;
+    border: none;
+
+    padding: 10px 17px 9px 16px;
+
+
+}
+
+.profile-head1 {
+    color: var(--h1-color);
+    font-family: Segoe UI;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: var(--h2-font-weight);
+}
+
+.img-div1 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.loc-head-1 {
+    color: var(--h1-color);
+    font-family: Segoe UI;
+    font-size: 36px;
+    font-weight: var(--h2-font-weight);
+
+}
+
+.location-paragraph {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Segoe UI;
+    font-size: var(--h2-font-size);
+    font-weight: var(--para1-font-weight);
+
+}
+
+.loc-div {
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    display: flex;
+    padding: 24px 18px 103px 20px;
+    justify-content: center;
+    border-bottom: transparent;
+
+    align-items: center;
+}
+
+.ifram-1 {
+    height: 379px;
+
+}
+
+
+.img-div2 {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* new setion */
+.conten-h1 {
+    color: #616161;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: var(--para1-font-weight);
+}
+.loginClr{
+    color: white !important;
+}
+
+.content-p {
+    color: var(--h1-color);
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: var(--h2-font-weight);
+    text-align: center;
+}
+
+.hr1 {
+    border: solid 2px;
+}
+
+.conten-h2 {
+    color: #525FE1;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 350;
+}
+
+.progress-stage {
+    text-align: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.percentage-1 {
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.rating {
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.review {
+    color: #616161;
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 350;
+}
+
+.content3 {
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content4 {
+    color: #616161;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 350;
+}
+
+/*  */
+.con-1-h1 {
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.con1-p {
+    color: #616161;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ul-location {
+    display: flex;
+    gap: 3rem;
+}
+
+.content1-h {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.see-more-location {
+    color: #3771C8;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.silk-carasol1 {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #FFF;
+    height: fit-content;
+}
+
+
+.carousel-control-prev {
+    /* left: -43px; */
+    top: 50% !important;
+    left: -3% !important;
+    width: fit-content !important;
+    transform: translate(-50%, -50%) !important;
+    background: red !important;
+    height: fit-content !important;
+    opacity: 1 !important;
+}
+
+.carousel-control-next {
+    right: -10% !important;
+    background: red !important;
+    height: fit-content !important;
+    top: 50% !important;
+    opacity: 1;
+    transform: translate(-50%, -50%) !important;
+    width: fit-content !important;
+}
+
+/*  */
+/* new setion */
+@media(max-width:567px) {
+    .location-content {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+    .ul-location {
+        flex-direction: column;
+        gap: unset !important;
+    }
+
+    .content-p {
+
+        text-align: start;
+    }
+
+    .content {}
+
+    .content3 {
+
+        font-size: 20px;
+
+    }
+}
+
+/* view store */
+/* input field */
+
+.view-store-input {
+    border: 1px solid var(--border-color);
+    border-radius: 16px
+}
+
+/* .view-store-option{
+color: var( --para3-color);
+font-size: 16px;
+font-weight: 400;
+border: 1px solid var(--border-color);
+border-left: 0;
+border-radius: 16px
+} */
+.view-store-w-img {
+    width: 26px;
+    height: 26px;
+}
+
+.view-store-c-img {
+    margin-top: 3px;
+    width: 15px;
+    height: 20px;
+}
+
+.call_store::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 25px;
+    background-color: var(--line-color);
+
+}
+
+.view-store-call {
+    color: var(--feedback-color);
+}
+
+.view-store-div {
+    border: 1px solid var(--border);
+    border-left: none
+}
+
+.view-store-input:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: var(--border-color);
+
+}
+
+.view-store-div h5 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.view-store-div p {
+    color: var(--para4-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.view-store-callnow {
+    color: var(--feedback-color) !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.view-store-book {
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--feedback-color);
+    border-radius: 6px;
+    border: 1px solid var(--feedback-color);
+    text-wrap: nowrap;
+
+}
+
+.view-store-book:hover {
+    background-color: var(--feedback-color);
+    color: var(--heading1-color);
+
+}
+
+.view-store-view {
+    padding: 10px 16px 9px 16px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: var(--feedback-color);
+    color: var(--heading1-color);
+}
+
+
+/* slider */
+.view-store-walk p {
+    color: var(--h1-color);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.slider .slider1 .slider2 .slider3 {
+    background: none;
+    margin: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+@media screen and (min-width: 768px) {
+    .slider .slider1 .slider2 .slider3 img {
+        height: 8rem;
+    }
+}
+
+.leftLst {
+    background: var(--feedback-color);
+}
+
+.leftLst:hover {
+    background-color: var(--backgroundhover);
+    color: black;
+}
+
+.rightLst {
+    background: var(--feedback-color);
+}
+
+.rightLst:hover {
+    background-color: var(--backgroundhover);
+    color: black;
+}
+
+.view-store-swiper-btn {
+    background-color: var(--feedback-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.MultiCarousel {
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.MultiCarousel .MultiCarousel-inner {
+    transition: 1s ease all;
+    float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item {
+    float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item>div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background: #f1f1f1;
+    color: #666;
+}
+
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 2px;
+    top: calc(50% - 20px);
+}
+
+
+
+.MultiCarousel .leftLst {
+    left: 0;
+}
+
+.MultiCarousel .rightLst {
+    right: 0;
+}
+
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+    pointer-events: none;
+    background: #ccc;
+}
+
+/* view store */

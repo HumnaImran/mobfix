@@ -1,0 +1,82 @@
+/* Faq */
+.markhor-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.shop-text h3 {
+    margin-top: 10px;
+    color: var(--button2-background-color);
+    font-size: 19px;
+}
+
+.shop-text p {
+    margin-top: -10px;
+    color: #00000080;
+}
+
+.views-icons img {
+    width: 15px;
+    height: 12px;
+    margin-top: 7px;
+}
+
+.card {
+    background: rgba(252, 252, 252, 0.85);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 100%;
+}
+
+.dot {
+    top: -3px !important;
+    font-size: 28px;
+}
+
+.viewIcons {
+    margin-top: 30px;
+    width: 45%;
+}
+
+.hr-width {
+    text-align: center;
+    width: 95%;
+}
+
+#editor {
+    height: 100vh;
+}
+.comBtn{
+    color: rgba(0, 0, 0, 0.68) !important;
+font-family: Segoe UI !important;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 400px) {
+    .move-colum {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .viewIcons {
+        text-align: center !important;
+        margin-top: 10px !important;
+
+    }
+
+    .mobile h3 {
+        font-size: 20;
+        text-align: center;
+    }
+
+    .markhor-icon img {
+        margin-top: 10px;
+    }
+}
+
+/* Faq */

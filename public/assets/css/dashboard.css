@@ -1,0 +1,531 @@
+:root {
+    --heading1-color: #FFF;
+    --h1-color: #000;
+    --feedback-color: #F86F03;
+    --navbar-button-color: #525FE1;
+    --box-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    --h1-font-size: 32px;
+    --h2-font-size: 16px;
+    --h3-font-size: 20px;
+    --h1-font-weight: 700;
+    --h2-font-weight: 600;
+    --h3-font-weight: 600;
+    --button1-background-color: #FFF6F4;
+    --button2-background-color: #525FE1;
+    --feedback-background-color: #F86F03;
+    --para1-color: rgba(0, 0, 0, 0.84);
+    --para2-color: rgba(0, 0, 0, 0.72);
+    --para3-color: rgba(0, 0, 0, 0.50);
+    /* Replace with your desired color */
+
+     /* by ikram  */
+     --inputColor: rgba(82, 95, 225, 0.33);
+     --inputFamily:Segoe UI;
+     --searchClr:#525FE1;
+     --appleTxt:14px;
+     --appleTxtrwo:13px;
+     --cardShadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     --priceSize:18px;
+     --sideShadow:1px 1px 8px 0px rgba(0, 0, 0, 0.16);
+     --mainContainerClr: #FCFCFC;
+     /* --smallFont:13px; */
+     /* by ikram  */
+} 
+
+.mobimg{
+    height: 30px;
+}
+.dash{
+    text-decoration: none !important;
+    color:var( --heading1-color) !important;
+    
+font-family: Poppins;
+font-size: var( --h2-font-size) !important;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+/* padding-left: 40px !important; */
+}
+.dash:hover{
+    border-radius: 5px;
+    background: #007BFF;
+}
+.dashIcon{
+    height: 15px !important;
+    /* padding-left: 40px !important; */
+}
+.dashBtn:focus{
+outline: none !important;
+box-shadow: none !important;
+border: none !important;
+}
+.bgSide{
+    background-color: #000000 !important;
+   
+    /* position: sticky; */
+}
+.inClass{
+    border: none !important;
+    outline: none !important;
+}
+.inClass:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border:  none !important;
+}
+.inDiv{
+    border-radius: 5px;
+background: #ECEFF3;
+}
+.conIcon{
+    height: 25px;
+}
+.orangeCard{
+    background-color: var(--feedback-background-color) !important;
+}
+.ten{
+    color: var(--heading1-color) !important;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.shopClass{
+    color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.eImg{
+    height: 60px !important;
+}
+.moreClass{
+text-decoration: none !important;
+    color: #F6F7FB;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.circleimg{
+    height: 18px;
+}
+.cardoneBg{
+    background: rgba(197, 197, 197, 0.35) !important;
+}
+.cardTwoBg{
+    background-color: #525FE1 !important;
+}
+.rightSide{
+    background: #ECEFF3 !important;
+}
+.tableShop{
+    color: #28A745;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.idBtn{
+    color: #343A40;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.idBtn:focus{
+outline: none !important;
+box-shadow: none !important;
+border: none !important;
+}
+.tablePart{
+    color: #6B7181 !important;
+font-family: Poppins !important;
+font-size: 14px !important;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+/* .tableShop{
+    border-bottom: 1px solid #C5C5C5;
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+} */
+.tableSales{
+    color: #17A2B8;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.tableRepair{
+    color: #FFC107;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.tableCus{
+    color: #DC3545;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.dropdownBor{
+    border: 1px solid black;
+}
+.dropdownBor:hover{
+    border: 1px solid black;
+}
+ .btnClose{
+    color: white !important;
+    background-color: white !important;
+ }
+
+/* zaryab css ------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #ECEFF3;
+    border: none;
+    /*  */
+    width: 320px;
+    max-width: 100%;
+
+}
+
+.search2 {
+    flex-wrap: wrap;
+    gap: 20px;
+
+    width: 100%;
+}
+
+.search-input {
+    flex-grow: 1;
+    border: none;
+    color: #969696;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px;
+
+
+    outline: none;
+}
+
+.search-icon {
+    font-size: 20px;
+    color: #B5B2B2;
+    /* Icon color */
+    margin-right: 10px;
+}
+
+.inpusearch {
+    background: transparent !important;
+}
+
+/* Custom CSS styles go here */
+/* You can style the sidebar, cards, and other elements as per your requirements */
+/* For example, you can set fixed heights, colors, and margins */
+.gcard {
+    border-radius: 5px;
+    background: var(--2nd, #F86F03);
+    border: none;
+
+}
+
+.vcard {
+    border-radius: 5px;
+    background: var(--main-color, #525FE1);
+    border: none;
+
+
+}
+
+.scard {
+    border: none;
+
+    border-radius: 5px;
+    background: var(--light-orng, #FFA41B);
+}
+
+.dcard {
+    border: none;
+
+    border-radius: 5px;
+    background: rgba(82, 95, 225, 0.66);
+}
+
+.gt {
+    padding: 1rem;
+}
+
+.btn-more-info1 {
+    color: #F6F7FB;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    background: rgba(197, 197, 197, 0.35);
+    text-decoration: none;
+    /* Five equal-width sections */
+}
+
+.btn-more-info2 {
+    color: #F6F7FB;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+
+    background: rgba(161, 161, 161, 0.39);
+}
+
+.btn-more-info3 {
+    color: #F6F7FB;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background: rgba(165, 164, 163, 0.27);
+}
+
+
+.btn-more-info4 {
+    color: #F6F7FB;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background: rgba(219, 219, 219, 0.46);
+}
+
+.btn-more-info4::after {
+    content: "";
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.card-title1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.card-text1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.ist-sec {
+
+    background: #000;
+    color: #fff;
+}
+
+.sidebar {
+
+    background: #000;
+    color: #fff;
+}
+
+.sidebar-logo {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.main-content {
+    padding: 3rem;
+    background: #ECEFF3;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#dashedChart {
+    width: 590px !important;
+    height: 250px !important;
+    max-width: 100% !important;
+}
+
+.ul-dash {
+    text-decoration: none;
+    list-style: none;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.sidebar-menu ul li a {
+    text-decoration: none;
+
+}
+
+.dash1 {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0px !important;
+}
+
+.table-responsive {
+    border-radius: 10px;
+    background: #FFF;
+
+}
+
+.sales {
+    color: #17A2B8;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.shops {
+    color: #28A745;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.repair {
+    color: #FFC107;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.customer {
+    color: #DC3545;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.table-responsive .dropdown a {
+    color: #343A40 !important;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.table-responsive th,
+tr,
+td {
+    text-align: center;
+}
+
+.table-responsive td {
+    color: #6B7181;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card-title-repair {
+    color: #000;
+    font-family: Poppins;
+    font-size: 17px;
+
+    font-weight: 600;
+
+}
+
+.cradreport {
+
+
+
+    position: relative;
+}
+
+.cradreport img {
+    position: absolute;
+    top: 55%;
+    right: 9%;
+    transform: translate(-10%, -50%);
+
+}
+
+
+@media (max-width:767px) {
+    .cradreport img {
+        display: none;
+    }
+}
+
+@media (max-width:1450px) {
+
+    #dashedChart {
+        width: 400px !important;
+    }
+}
+
+@media (max-width:992px) {
+    .sidebar-logo {
+        margin-bottom: unset;
+        margin-top: 1rem !important;
+    }
+
+    .custom-search {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+}
+/* zaryab css ------- */

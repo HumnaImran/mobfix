@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Privacytext{
+    font-family: Segoe UI;
+font-size: 35px;
+font-weight: 600;
+line-height: 53px;
+text-align: left;
+color: black;
+}
+.ParagraphText{
+    background-color: #f3f1f1;
+}
+.Text-privacy{
+    color: black;
+    font-family: Segoe UI;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+
+}
+.WalleT{
+    font-family: Segoe UI;
+font-size: 30px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.Walletbalance{
+    font-family: Segoe UI;
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+}
+.Balanced{
+    font-family: Segoe UI;
+font-size: 20px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.TableBody{
+    background-color: #f3f1f1;
+}
+.Tableborder{
+    border: 2px solid white !important;
+}
+.tABBLEHEADER{
+    border: 1px solid #f3f1f1 !important;
+    border-top: 10px;
+}
+.BTN{
+    background-color:#F6A92C !important;
+    color: white !important;
+    border-radius:10px ;
+}
+ /* faqs css*/
+ .FAQSsection2{
+    background-color: #f3f1f1;
+    border-radius: 12px;
+   
+ }
+ .BAKSections{
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    width: 70%;
+ }
+ @media(max-width:520px){
+    .BAKSections{
+        top: 60%;
+        width: 80%;
+        left: 10%;
+    }
+ }
+ @media(max-width:397px){
+    .BAKSections{
+        top: 40%;
+        width: 90%;
+        left: 5%;
+    }
+ }
+ @media(max-width:992px){
+    .SecTions4{
+        margin-top: 40% !important;
+     }
+ }
+ @media(max-width:857px){
+    .SecTions4{
+        margin-top: 50% !important;
+     }
+ }
+ @media(max-width:767px){
+    .SecTions4{
+        margin-top: 60% !important;
+     }
+     .PrivacyTEXT{
+        font-size: 25px;
+     }
+ }
+ @media(max-width:660px){
+    .SecTions4{
+        margin-top: 80% !important;
+     }
+ }
+ @media(max-width:600px){
+    .SecTions4{
+        margin-top: 90% !important;
+     }
+ }
+ @media(max-width:550px){
+    .SecTions4{
+        margin-top: 100% !important;
+     }
+ }
+ @media(max-width:440px){
+    .SecTions4{
+        margin-top: 120% !important;
+     }
+ }
+ @media(max-width:360px){
+    .SecTions4{
+        margin-top: 140% !important;
+     }
+     .PrivacyTEXT{
+        font-size: 16px;
+     }
+ }
+ .SecTions4{
+    margin-top: 20% ;
+    margin-bottom: 5%;
+ }
+ .PrivacyTEXT{
+    font-family: Segoe UI;
+    font-size: 35px;
+    font-weight: 600;
+    /* line-height: 20px; */
+    text-align: left;
+    color: black;
+ }
+.accordion-button{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+/* news css */
+.mainSections {
+    background-image: url('../img/Rectangle\ 1128.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    height: 60vh !important;
+    background-position: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainSections h2{
+    font-family: Segoe UI;
+font-size: 35px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0em;
+color: white;
+
+}
+.REVIES{
+    color: #F6A92C;
+}
+.Privacyhiden{
+    font-family: Segoe UI;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+
+}

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Segoe UI";
+  /* Give a name to your font */
+  src: url("../fonts/segoe-ui/Segoe\ UI.ttf") format("tff");
+}
+body {
+  font-family: "Segoe UI" !important;
+}
+.submit-p p {
+  color: var(--navbar-button-color);
+  font-size: 24px;
+
+  font-weight: 600;
+}
+.submit-img img {
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.submit-head h4 {
+  color: var(--h1-color);
+  font-size: 32px;
+  font-weight: 600;
+}
+.submit-p1 p {
+  color: var(--book-color6);
+  font-size: 24px;
+  font-weight: 600;
+}
+.submit-detail {
+  background: var(--book-color7);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.submit-text h5 {
+  color: var(--h1-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+.submit-text p {
+  color: var(--book-color);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.submit-detail1 {
+  background: var(--book-color7);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.submit-head2 {
+  color: var(--h1-color);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+.num-list li {
+  color: var(--book-color8);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.num-list li a {
+  text-decoration: none;
+  color: var(--book-color8);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}

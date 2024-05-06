@@ -1,0 +1,279 @@
+:root {
+    --heading1-color: #FFF;
+    --h1-color: #000;
+    --feedback-color: #F86F03;
+    --navbar-button-color: #525FE1;
+    --box-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    --h1-font-size: 32px;
+    --h2-font-size: 16px;
+    --h3-font-size: 20px;
+    --h1-font-weight: 700;
+    --h2-font-weight: 600;
+    --h3-font-weight: 600;
+    --button1-background-color: #FFF6F4;
+    --button2-background-color: #525FE1;
+    --feedback-background-color: #F86F03;
+    --para1-color: rgba(0, 0, 0, 0.84);
+    --para2-color: rgba(0, 0, 0, 0.72);
+    --para3-color: rgba(0, 0, 0, 0.50);
+    /* Replace with your desired color */
+
+     /* by ikram  */
+     --inputColor: rgba(82, 95, 225, 0.33);
+     --inputFamily:Segoe UI;
+     --searchClr:#525FE1;
+     --appleTxt:14px;
+     --appleTxtrwo:13px;
+     --cardShadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     --priceSize:18px;
+     --sideShadow:1px 1px 8px 0px rgba(0, 0, 0, 0.719);
+     --mainContainerClr: #FCFCFC;
+     /* --smallFont:13px; */
+     /* by ikram  */
+}
+.mobBanner{
+   /* background: url(../images/mobbanner.png); */
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/mobbanner.png) , lightgray 0px -164.701px / 100% 168.432% no-repeat;
+   object-fit: cover;
+   background-repeat: no-repeat;
+   height: 400px;
+   background-size: cover;
+   /* width: 100%; */
+}
+.backgroundcontainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.inputOne{
+    background-color: var(--inputColor) !important;
+    outline: none !important;
+    border-color: none !important;
+    font-family: var(--inputFamily) !important;
+}
+.searchIcon{
+    background-color: var(--searchClr) !important;
+    /* height: 15px !important; */
+}
+.searchIcon i:hover{
+    transform: scale(o.9) !important;
+    /* color: var(--heading1-color) !important; */
+    cursor: pointer !important;
+    transform: scale(1.5) !important;
+    transition: transform 0.4s ease;
+    color: white !important;
+
+}
+.imgBorder{
+    border-radius: 50% !important;
+    border: 2px solid var( --navbar-button-color) !important;
+    height: 140px !important;
+    width: 140px !important;
+    box-shadow: var(--cardShadow) !important;
+    object-fit: cover;
+}
+.appleTxt{
+    font-size: var(--appleTxt) !important;
+    font-weight: var( --h2-font-weight);
+}
+.sort{
+    color: var( --para1-color) !important;
+    font-weight: 600;
+font-size: var(--h3-font-size) !important;
+}
+.popular{
+    font-style: normal;
+font-weight: 400;
+font-family: var(--inputFamily) !important;
+text-decoration: none !important;
+color: var(--para3-color) !important;
+}
+.popular:hover{
+    font-style: normal;
+font-weight: 400;
+font-family: var(--inputFamily) !important;
+text-decoration: none !important;
+color: var(--searchClr) !important;
+}
+.priceBtn{
+    background-color: var(--feedback-color) !important;
+
+
+}
+.mobPrice{
+    color: var(--feedback-color) !important;
+    font-style: normal;
+font-weight: 400;
+font-size: var(--priceSize) !important;
+}
+.mobCardShahdow{
+    box-shadow:var(--cardShadow) !important;
+    /* height: 95% !important; */
+}
+.cardsMain{
+    /* background-color: var(--mainContainerClr) !important; */
+    /* box-shadow: var(--sideShadow) !important; */
+}
+.page{
+    color:var(--para1-color) !important;
+font-family: var(--inputFamily) !important;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+/* margin-top: 60px !important ; */
+}
+.pageCircle{
+    border-radius: 50% !important;
+    height: 38px !important;
+    width: 38px !important;
+
+}
+.twoClr{
+    background-color: #B6B6B8 !important;
+}
+.pageMarg{
+    margin-top: -20px !important;
+}
+/* .pageMargin{
+    margin-top: 90px !important;
+} */
+.mobtxt{
+    font-size: var(--appleTxtrwo) !important;
+}
+.imgHeight{
+    height: 275px !important;
+    /* padding: 15px !important; */
+}
+.filterBtn{
+    text-decoration:  none !important;
+
+    font-size:var( --h3-font-size) !important;
+    font-size: 20px !important;
+    color: #000 !important;
+font-family: Segoe UI !important;
+font-size: 20px !important;
+font-style: normal;
+font-weight: 600;
+}
+.sideClr{
+    background-color: var(--mainContainerClr) !important;
+    box-shadow: var(--sideShadow) !important;
+    margin-top: -15px !important;
+
+    /* height: 100vh; */
+}
+.clearBtn{
+    text-decoration: none !important;
+    font-size: var( --h2-font-size) !important;
+    font-style: normal;
+font-weight: 600;
+color: var( --searchClr) !important;
+/* padding-left: 150px !important; */
+}
+.catBtn{
+  font-family: var(--inputFamily) !important;
+  font-size:11px !important;
+}
+.catBtn:active{
+  font-family: var(--inputFamily) !important;
+  font-size:11px !important;
+  border: none !important;
+}
+.catBtn{
+  font-family: var(--inputFamily) !important;
+  font-size:11px !important;
+}
+.bodyClr{
+    background-color: var( --mainContainerClr) !important ;
+    /* box-shadow: var(--sideShadow) !important; */
+}
+.smartBtn{
+font-size: var(--appleTxt) !important;
+color: var( --para1-color) !important;
+/* color: #000  !important; */
+font-weight: 600;
+}
+.iconBtn{
+    padding-left: 95px !important;
+}
+.catIcon{
+    padding-left: 170px !important;
+}
+/* .catBtn{
+    padding-right: 10px !important;
+} */
+.priceIcon{
+    padding-left: 90px !important;
+}
+.smartIcon{
+    padding-left: 25px !important;
+}
+.accSet{
+    outline: none !important;
+}
+.accMargin{
+    margin-top: -10px !important;
+    border: none !important;
+}
+.priceIcon{
+    padding-left: 195px !important;
+}
+.bodyClr{
+    background-color: var( --mainContainerClr) !important;
+}
+.smartIcon{
+    padding-left: 128px !important;
+}
+.pageOne:hover{
+cursor: pointer !important;
+}
+.catBtn{
+border: none !important;
+outline: none !important;
+}
+.smart{
+    border: none !important;
+outline: none !important;
+/* padding-right: 90px !important; */
+}
+
+
+
+
+
+
+/* media query  */
+@media screen and (max-width: 768px) {
+   .mobDiv{
+    overflow: scroll !important;
+
+   }
+    .imgHeight{
+        height: 385px !important;
+        /* padding: 20px !important; */
+    }
+  }
+@media screen and (max-width: 992px) {
+   .mobDiv{
+    overflow: scroll !important;
+
+   }
+   .linksCol{
+    display: flex !important;
+    flex-direction: column !important;
+   }
+
+  }
+@media screen and (max-width: 576px) {
+   .mobDiv{
+    overflow: scroll !important;
+    /* margin-inline: 30px !important; */
+   }
+   .mobcard{
+    margin-inline: 15px !important;
+   }
+
+  }
+
+/* media query  */

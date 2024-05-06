@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Segoe UI";
+  /* Give a name to your font */
+  src: url("../fonts/segoe-ui/Segoe\ UI.ttf") format("tff");
+}
+
+body {
+  font-family: "Segoe UI" !important;
+}
+
+/* ###########>Header start<############# */
+.head {
+  background-color: var(--header-bg);
+}
+.nav-list li a {
+  color: var(--h1-color);
+  font-size: var(--nav-color);
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+
+.navbarhover .itemhover{
+   position: relative;
+    display: flex;
+    justify-content: center;
+}
+.dropdown-toggle::after{
+margin-top: 10px;
+}
+.navbarhover .itemhover:hover::before
+{
+    text-align: center;
+    content: '';
+    position: absolute;
+   
+  bottom: -10px;
+    
+    width: 10px;
+    height: 10px;
+    background-color:var(--fBtn);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.nav-list li a:hover {
+  color: var(--h1-color);
+}
+.nav-button {
+  background: var(--button2-background-color);
+  color: var(--h1-color);
+  box-shadow: var(--box-box-shadow);
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-button:hover {
+  background: var(--feedback-background-color);
+  color: var(--heading1-color);
+}
+.nav-button1 {
+  border: 1px solid var(--button2-background-color);
+  color: var( --navbar-button-color);
+  box-shadow: var(--box-box-shadow);
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-button1:hover {
+    background: var(--feedback-background-color);
+  /* border: 1px solid var(--button2-background-color); */
+  color: var(--heading1-color);
+}
+
+
+@media(max-width:992px){
+    .navbarhover .nav-item{
+        position: relative;
+         display: flex;
+         flex-direction: column;
+         justify-content: start;
+     }
+
+     
+     .navbarhover .itemhover:hover::before
+{
+    text-align: center;
+    content: '';
+    position: absolute;
+   
+  bottom: 10px;
+  left: -15px;
+    
+    width: 4px;
+    height: 20px;
+    background-color:var(--fBtn);
+    /* border-radius: 30px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+}
+/* .nav-link{
+    padding: 0px !important;
+ } */
+/* ###########>Header end<############# */

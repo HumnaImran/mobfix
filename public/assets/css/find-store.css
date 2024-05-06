@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Segoe UI';
+    /* Give a name to your font */
+    src: url('../fonts/segoe-ui/Segoe\ UI.ttf') format('tff'),
+
+
+}
+body {
+    font-family: 'Segoe UI' !important;
+}
+/* background picture */
+.find-store{
+    width: 100% !important;
+    height: 60vh!important;
+    background-size: cover;
+    object-fit: cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../img/joel-rohland-MCL2xxjZJvs-unsplash\ 1.png), lightgray 0px -170.162px / 100% 245.098% no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+
+}
+/* heading */
+.find-store-heading{
+color:var(--heading1-color);
+font-size: 32px;
+font-weight: 700;
+}
+
+/* input field */
+ 
+.find-store-input{
+    border: 1px solid var(--border-color);
+    border-radius: 16px
+}
+.find-store-w-img{
+width: 26px;
+height: 26px;
+}
+.find-store-c-img{
+    margin-top: 3px;
+    width: 15px;
+    height: 20px;
+   
+}
+.call_store::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 25px;
+    background-color:var(--line-color);
+
+}
+ 
+.find-store-call{
+    color: var( --feedback-color);
+}
+
+.find-store-div{
+    border: 1px solid var(--border);
+    border-left-color: var(--feedback-color);
+    border-left-width: 3px;
+}
+.find-store-input:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: var(--border-color);
+
+}
+.find-store-div h5{
+    color:var( --h1-color);
+    font-size: 16px;
+    font-weight: 700;
+}
+.find-store-div p{
+ color: var(--para4-color);
+font-size: 16px;
+font-weight: 400;
+}
+.find-store-callnow{
+    color: var( --feedback-color) !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+.find-store-book{
+justify-content: center;
+align-items: center;
+font-weight: 600;
+font-size: 14px;
+color: var(--feedback-color);
+border-radius: 6px;
+border: 1px solid var(--feedback-color);
+/* text-wrap: nowrap; */
+}
+.find-store-book:hover {
+background-color: var(--feedback-color);
+color: var(--heading1-color);
+}
+
+.find-store-view{
+padding: 10px 16px 9px 16px;
+justify-content: center;
+align-items: center;
+font-weight: 600;
+font-size: 14px;
+background-color: var(--feedback-color);
+color: var(--heading1-color);
+}
+.find-store-view:hover{
+    background-color: var(--feedback-color);
+    color: var(--heading1-color);
+}
+
+
+ 

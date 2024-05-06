@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Segoe UI';
+    /* Give a name to your font */
+    src: url('../fonts/segoe-ui/Segoe\ UI.ttf') format('tff'),
+
+
+}
+body {
+    font-family: 'Segoe UI' !important;
+}
+/* background picture */
+.services{
+    background-image: url(/assets/images/best-smartphones-2022-1646858128\ 1.png);
+    width: 100% !important;
+    height: 60vh!important;
+    background-size: cover;
+    object-fit: cover;
+    align-items: center;
+}
+/* heading */
+.services-heading{
+color:var(--heading1-color);
+font-size: 36px;
+font-weight: 700;
+}
+/* paragraph */
+.services-para{
+color: var(--h1-color);
+font-size: 18px;
+font-weight: 400;
+}
+/* cards */
+.services-card{
+     /* width: 100% !important; */
+    height: 100% !important;
+    background: #FFF;
+    box-shadow:var(--box-box-shadow);
+}
+.services-card h5{
+    color:var(--h1-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.services-card p{
+color: var(--h1-color);
+text-align: center;
+font-size: 12px;
+font-weight: 400;
+}
+

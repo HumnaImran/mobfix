@@ -1,0 +1,161 @@
+/* login */
+.bg-image
+{
+    background-image: url(../images/Frame\ 144.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.center-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.bg-color{
+    background-color: white;
+}
+.bgOrange{
+    background: rgba(248, 111, 3, 0.80)
+}
+.password a
+{
+    color: var(--feedback-color);
+    cursor: pointer;
+}
+.password button{
+    background-color: var(--button2-background-color);
+    color: var(--button1-background-color);
+    font-size: 18px;
+}
+.password img{
+    width: 16px;
+    /* margin-left: 5px !important; */
+    margin-top: -10px;
+}
+.customer{
+    border: 1px solid var(--button2-background-color);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.customer h4{
+    
+    /* border: 1px solid red; */
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -4px;
+}
+.radio-box{
+    position: absolute;
+    left:90px;
+    top: 5px;
+}
+.mob-log img
+{
+    width: 110px;
+}
+.mob-log h5
+{
+    color: var(--h1-color);
+    font-size: 19px;
+    margin-top: 10px;
+}
+.form-control{
+    border-radius: 0px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.05); 
+
+}
+.google-logo img
+{
+    width: 35px !important;
+}
+.uper-margin
+{
+    margin-top: -100px;
+}
+.login
+{
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.login:hover
+{
+    color: var(--button1-background-color);
+    background-color: var(--button2-background-color);
+}
+.bgOrange h3{
+    font-family: 'Segoe UI';
+    font-weight: 700;
+}
+.bgOrange h4{
+    font-family: 'Segoe UI';
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.bgOrange h5{
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    font-weight: 300;
+}
+/* .eye-icon i{
+    position: absolute;
+    width: 17px;
+    right: 10px;
+    top: 44px;
+} */
+.label-color {
+    color: #00000080;
+    font-weight: 400;
+}
+::placeholder
+{
+    color: #00000080 !important;
+  
+}
+@media screen and (max-width:768px)
+{
+    .uper-margin{
+        margin-top: -158px;
+    }
+
+    .mob-log img
+    {
+        margin-top: 20px;
+    }
+    .bgOrange
+    {
+        padding-top: 10rem !important;
+    }   
+    .bg-image
+    {
+        height: 80%;
+    }
+    .bgOrange h4 
+    {
+        margin-top: 3px !important;
+    }
+    .bgOrange h5 
+    {
+        margin-top: 3px !important;
+    }
+}
+/* login */
+
+
+
+/* Create Account */
+.been-text p{
+    color: #00000080 ;
+    font-size: 12px;
+}
+.been-text  span
+{
+    color: var(--button2-background-color);
+    cursor: pointer;
+}

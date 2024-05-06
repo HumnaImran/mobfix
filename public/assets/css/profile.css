@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.form-label-user {
+    color: #1C1C1C !important;
+    font-family: Roboto !important;
+    font-size: 20px !important;
+    font-weight: var(--h3-font-weight);
+
+}
+
+.user-form {
+    border-radius: 5px !important;
+    border: 1px solid #858585 !important;
+    background: #FFF !important;
+    padding: 15px;
+    box-shadow: none !important;
+}
+
+.user-form2 {
+    background: transparent;
+
+    border: none !important;
+    background: no-repeat !important;
+    padding: 15px;
+    box-shadow: none !important;
+}
+
+.user2 {
+
+    border: 1px solid #858585 !important;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+    padding: 15px !important;
+}
+
+.user-name {
+    color: var(--h1-color);
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: var(--h3-font-weight)
+}
+
+.buton-submit {
+    border-radius: 5px;
+    border: 2px solid #FF7008;
+    background: #FFF;
+    width: 180px;
+    height: 55px;
+    color: #FF7008;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.buton-submit2 {
+    border-radius: 5px;
+    background: #FF7008;
+    width: 180px;
+    height: 55px;
+    border: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.buton-submit2:hover {
+    background: #FFF;
+    border: 2px solid #FF7008;
+    color: #FF7008;
+    transition: .3s ease;
+}
+
+.buton-submit:hover {
+    background: #FF7008;
+    border: none;
+    color: #FFF;
+    transition: .3s ease-in;
+}
+
+/* media  */
+@media (max-width:375px) {
+    .user-name {
+
+        font-size: 30px;
+    }
+
+    .user-dp-img {
+        width: 100px !important;
+        height: 100px !important;
+
+    }
+}
+
+/* media  */
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF;
+    /* Background color for the input field */
+    border: 1px solid #ced4da;
+    /* Border color for the input field */
+    border-radius: 0.25rem;
+    border: 1px solid #858585 !important;
+}
+
+.input-icon {
+    margin-left: 10px;
+    background: #23b000;
+    margin-right: 1rem;
+    color: #FFF;
+    /* Color for the tick icon */
+}

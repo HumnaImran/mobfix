@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    /* Give a name to your font */
+    src: url('../fonts/segoe-ui/Segoe\ UI.ttf') format('tff'),
+
+
+}
+
+body {
+    font-family: 'Segoe UI' !important;
+}
+
+.bg-privacy {
+
+    background-image: url(../img/privacyim.png);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+.heading-privacy {
+    color: var(--h1-color);
+    font-size: var(--h1-font-size);
+    font-weight: var(--h1-font-weight);
+}
+
+.para-privacy {
+    color: var(--para2-color);
+    font-size: var(--h3-font-size);
+    font-weight: var(--para2-font-weight);
+}
+
+.heading-certified {
+    color: var(--h1-color);
+    font-size: var(--h1-font-size);
+    font-weight: var(--h1-font-weight);
+}
+
+.para1-certified {
+    color: var(--para1-color);
+    font-size: var(--h2-font-size);
+    font-weight: var(--para1-font-weight);
+}
+
+.andriod-heading {
+    color: var(--h1-color);
+    font-size: var(--h3-font-size);
+    font-weight: var(--h2-font-weight);
+}
+
+.btn-guide {
+    border-radius: 6px;
+    background: var(--navbar-button-color) !important;
+    color: var(--heading1-color) !important;
+    font-size: var(--andriod-para-font-size);
+    border-radius: 6px;
+    font-weight: var(--para1-font-weight);
+    box-shadow: var(--view-guide-box-shadow);
+}
+
+.para-mobile {
+    font-size: var(--para2-font-size);
+    font-weight: var(--para1-font-weight);
+    color: var(--para3-color);
+
+}
+
+@media (max-width: 992px) {
+    .repairg {
+        width: 100%;
+
+    }
+}
